@@ -3,7 +3,7 @@ from azure.eventhub import EventHubProducerClient, EventData
 
 
 
-connection_str = 'Endpoint=sb://udaandemo.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=pXQyvZw2xvmrf79pbDPWGqO008gXbZ44e9QuP8gu2aM='
+connection_str = 'CONNECTION STRING'
 eventhub_name = 'testevents'
 client = EventHubProducerClient.from_connection_string(connection_str, eventhub_name=eventhub_name)
 
