@@ -1,7 +1,7 @@
 import logging
 from azure.eventhub import EventHubConsumerClient
 
-connection_str = 'Endpoint=sb://udaandemo.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=pXQyvZw2xvmrf79pbDPWGqO008gXbZ44e9QuP8gu2aM='
+connection_str = 'CONNECTIONSTRING'
 consumer_group = '$Default'
 eventhub_name = 'testevents'
 client = EventHubConsumerClient.from_connection_string(connection_str, consumer_group, eventhub_name=eventhub_name)
