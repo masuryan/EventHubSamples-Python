@@ -8,7 +8,7 @@ from azure.eventhub import EventData
 
 
 producer = EventHubProducerClient.from_connection_string(
-        conn_str='Endpoint=sb://udaandemo.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=pXQyvZw2xvmrf79pbDPWGqO008gXbZ44e9QuP8gu2aM=',
+        conn_str='Endpoint=sb://udaandemo.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=ACCESSKEY',
         eventhub_name='testevents'
     )
 
